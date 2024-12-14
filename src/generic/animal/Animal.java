@@ -26,6 +26,7 @@ public class Animal {
         System.out.println("동물 울음소리");
     }
 
+    @Override
     public String toString() {
         return "Animal{name='" + this.name + "', size=" + this.size + "}";
     }
