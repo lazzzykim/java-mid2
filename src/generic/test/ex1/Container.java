@@ -1,4 +1,4 @@
-package generic.ex;
+package generic.test.ex1;
 
 public class Container<T> {
 
