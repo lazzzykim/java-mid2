@@ -16,11 +16,7 @@ public class MemberRepository {
     }
 
     public Member findById(String id) {
-        if (memberMap.containsKey(id)) {
-            return memberMap.get(id);
-        } else {
-            return null;
-        }
+        return memberMap.get(id);
     }
 
     public Member findByName(String name) {
